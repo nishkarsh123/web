@@ -3,11 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>my web</title>
+    <style media="screen">
+    #hi
+    {
+      background-color: green;
+      font-size: 28px;
+      font-weight: bold;
+      width: 300px;
+      height: 200px;
+      margin: 30px;
+      padding:10px;
+
+    }
+    p
+    {
+      font-family: cursive,fantasy,serif;
+      border: 2px solid blue;
+    }
+    th,tr,table,td
+    {
+      border: 2px solid black;
+      border-collapse: collapse;
+      background-color: lightgreen;
+      text-align: center;
+      margin :10px;
+    }
+    th
+    {
+      background-color: lightblue;
+    }
+    #top
+    {
+      font-size: 50px;
+    }
+    #middle
+    {
+      font-size: 20px;
+    }
+    #bottom
+    {
+      font-size: 10px;
+    }
+    .ju
+    {
+      color: red;
+     font-weight: bold;
+    }
+    </style>
     <link rel="stylesheet" href="g.css">
   </head>
   <body>
     <h1 style="color:orange;text-align:center;">hello world again !</h1>
+    <div id="hi">
    <p> hi </p>
+ </div>
     <ul>
     <li>imp</li>
     <li>wor</li>
@@ -16,11 +65,48 @@
       <li>imp</li>
       <li>wor</li>
     </ol>
+    <table>
+      <tr>
+        <th>sno</th>
+        <th> name</th>
+        <th> marks</th>
+      </tr>
+      <tr>
+      <td>
+      1
+    </td>
+    <td>rohan</td>
+    <td>65</td>
+  </tr>
+  <tr>
+    <td>
+    2
+  </td>
+  <td>sohan</td>
+  <td>75</td>
+</tr>
+<tr>
+  <td>
+  3
+</td>
+<td>mohan</td>
+<td>45</td>
+  </tr>
+    </table>
     <img src="jg..jpg" height="70%">
     </style>
     <form>
     <input type="text" placeholder="institute" name="name">
     <button>submit</button>
   </form>
+  <div id="top">
+    top <span class="ju"> me</span>
+  </div>
+  <div id="middle">
+    middle <span class="ju"> me</span>
+  </div>
+  <div id="bottom">
+    bottom <span class="ju"> me</span>
+  </div>
   </body>
 </html>
