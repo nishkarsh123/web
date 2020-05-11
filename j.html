@@ -15,10 +15,30 @@
       padding:10px;
 
     }
+    @media (min width="500px") {
+      #hi
+      {
+        background-color: green;
+      }
+
+
+    }
+    @media (min width="499px") {
+      #hi
+      {
+        background-color: blue;
+      }
+
+    }
     p
     {
       font-family: cursive,fantasy,serif;
       border: 2px solid blue;
+    }
+    p::selection
+    {
+      color: black;
+      background-color: orange;
     }
     th,tr,table,td
     {
@@ -30,6 +50,21 @@
     }
     th
     {
+      background-color: lightblue;
+    }
+    button
+    {
+      color: white;
+    background-color: blue;
+    }
+    button:hover
+    {
+      color: black;
+      background-color: orange;
+    }
+    input:hover
+    {
+      color: black;
       background-color: lightblue;
     }
     #top
@@ -54,8 +89,10 @@
   </head>
   <body>
     <h1 style="color:orange;text-align:center;">hello world again !</h1>
+    <input type="text" placeholder="google" name="search">
+    <a href="https://www.google.com"><button>search</button></a>
     <div id="hi">
-   <p> hi </p>
+   <p> hi please copy me and see the magic ! </p>
  </div>
     <ul>
     <li>imp</li>
